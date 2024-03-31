@@ -1,0 +1,125 @@
+/* Existing CSS */
+body {
+    background-color: rgb(173, 65, 173); /* Change background color to violet */
+    min-height: 70vh;
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(198, 1%, 29%);
+    font-family: "Architects Daughter", cursive;
+    text-align: center;
+    font-size: 130%;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    min-height: 500px;
+    min-width: 250px;
+    background: lavender;
+    background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
+    background-size: 25px 25px;
+    border-radius: 20px;
+    box-shadow: 4px 3px 7px 2px #00000040;
+    padding: 1rem;
+    box-sizing: border-box;
+    margin: auto; /* Center the container horizontally */
+}
+
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.heading > h1 {
+    transform: rotate(2deg);
+    padding: 0.2rem 1.2rem;
+    border-radius: 20% 5% 20% 5% / 5% 20% 25% 20%;
+    background-color: rgb(231, 135, 196);
+    font-size: 1.5rem;
+}
+.form > input {
+    box-sizing: border-box;
+    background-color: #faf8fa; /* Background color */
+    padding: 0.7rem;
+    border: 3px solid #343a40; /* Border color */
+    font-family: "Architects Daughter", cursive;
+    font-size: 1rem;
+    color: #495057; /* Text color */
+    width: 70%;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+
+.form > input:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: #a142be; /* Border color on focus */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Add focus effect */
+}
+
+/* Button container */
+.button-container {
+    display: flex;
+    align-items: center; /* Vertically align items */
+    margin-bottom: 20px; /* Add margin to separate button from input box */
+}
+
+/* Add button */
+button {
+    width: auto; /* Set width to auto to fit content */
+    padding: 0.7rem; /* Match padding with input box */
+    border: none;
+    font-family: "Arachitects Daughter", cursive;
+    text-decoration: none;
+    border-top-right-radius: 0; /* Remove border radius */
+    border-bottom-right-radius: 0; /* Remove border radius */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+/* Span inside button */
+button > span {
+    background: #b154cd;
+    display: block;
+    padding: 0.5rem 1rem;
+    border-radius: 0; /* Remove border radius */
+    border: 2px solid hsl(198, 1%, 29%);
+}
+
+li {
+    text-align: left;
+    position: relative;
+    padding: 0.5rem;
+}
+
+
+
+
+
+/* Style for the list items */
+li {
+    background-color: #fff; /* Set list item background color */
+    margin-bottom: 0.5rem; /* Add margin between list items */
+    border-radius: 5px; /* Add border radius to list items */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow to list items */
+}
+
+/* Style for the list items on hover */
+li:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increase box shadow on hover */
+}
+
+/* Style for the list item text */
+li span {
+    font-weight: bold; /* Make list item text bold */
+}
+
+/* Style for the input placeholder text */
+.form input::placeholder {
+    color: #ccc; /* Set placeholder text color */
+}
